@@ -1,0 +1,103 @@
+.newstext{
+    color: rgba(228,174,77,255);
+    font-family: 'times New Roman';
+    font-weight: 100;
+    font-display: inherit;
+}
+.btn1{
+    border-color:rgba(228,174,77,255) ;
+    background-color: black;
+    color: rgba(228,174,77,255);
+    margin: 1%;
+    padding-left: 2%;
+    float: right;
+    text-align: center;
+    
+}
+.image{
+    height: 100%;
+    width: 90%;
+    padding-top: 4%;
+    padding-left: 70px;
+   
+    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 255) 0, #c92c2c 100%); */
+}
+
+.text{
+    position:inherit;
+    text-align:center;
+    font-family: 'times New Roman';
+    padding-bottom: 10%;
+}
+.btncomplete{
+    border-radius: 10px;
+    background-color: rgb(13, 204, 71);
+    color: white;
+    margin: 1%;
+    padding-left: 2%;
+    border: none;
+    float: right;
+    font-size: smaller;
+}
+.run{
+    margin: 0%;
+    padding-left: 0%;
+    float: right;
+}
+.cardtext{
+    color: rgb(230, 226, 226);
+    font-family: 'times new roman';
+    text-transform: uppercase;
+    font-size: small;
+    padding: 2%;
+}
+.card-title{
+    text-transform: uppercase;
+  color: azure;
+font-size: small;
+}
+.slick-slide {
+    margin: 0 3px;
+    /* padding-bottom:10px; */
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: none;
+   
+  }
+  .card-body{
+    background-color: rgb(46, 44, 44);
+    /* padding-right: 40px;
+    padding-left: 40px; */
+    border-radius: 6px;
+  }
+  .card{
+    border-radius: 10px;
+    border: none;
+   
+   background-color: black;
+  
+  }
+  .carousel{
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+ /* Previous arrow */
+.slick-prev {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  /* Next arrow */
+  .slick-next {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  

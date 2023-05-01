@@ -1,0 +1,108 @@
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons';
+body {
+  background: linear-gradient(70deg, #e6e6e6, #f7f7f7);
+  color: #514B64;
+  min-height: 100vh;
+}
+
+code {
+  background: #fff;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  margin: 0 0.3rem;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+
+.ml-2{
+  margin-left: 20px;
+}
+
+.mt-auto{
+  margin-top: auto;
+}
+
+.p-100{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.pr-2{
+  padding-right: 2.5rem;
+}
+
+.pl-2{
+  padding-left: 2.5rem;
+}
+
+.nav-link{
+  color: #fff !important;
+}
+
+.login-button{
+  background-color: rgba(228,174,77,255);
+  color: #fff;
+}
+
+.bg-img{
+  background-image: url('./assets/images/bg-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  box-shadow: 0 4px 2px -2px rgba(17, 16, 16, 0.2);
+ 
+}
+.bg-img::after {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-color: #0a0a0a;
+  
+  z-index: -1;
+}
+.overlay {
+  background-color: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.primary-color{
+  color: rgba(228,174,77,255);;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.banner-text{
+  padding-left: 10%;
+  padding-top: 34%;
+ 
+}
+.banner{
+  /* font-size: 3em; */
+  color: rgba(228,174,77,255);
+  font-style: italic;
+ 
+}
+.bottomimg{
+  padding-left: 10%;
+  padding-top: 75%;
+}
+.welcome-text{
+  font-style: italic;
+ font-size: medium;
+  color: white;
+  
+  margin-top: 10px;
+}

@@ -1,0 +1,71 @@
+<div class="bg-img " style="box-shadow: rgba(0, 0, 0, 0.753) 0px -50px 36px -28px inset;">
+  <div class="banner-text" >
+    <h6 class="welcome-text" >Welcome to</h6>
+    <h1 class="banner text-uppercase" >Malaysian Cricket</h1>
+    <!-- <span class="welcome-text">Welcome to <pre class="banner text-uppercase" >Malaysian Cricket</pre></span> -->
+    </div>
+
+</div>
+
+<ngx-slick-carousel class="carousel bg-black pl-2 pr-2" #slickModal="slick-carousel" [config]="slideConfig">
+
+  <div ngxSlickItem *ngFor="let slide of slides" class="slide" >
+
+    <div class="card">
+
+      <div class="card-body">
+        <h5 class="card-title font-weight-normal   ">National u16 zonal 2nd championship</h5>
+        <div class="row">
+          <div class="col ">
+            <div>April 19,2023  <button type="button" class="btncomplete">Completeted</button></div>
+          </div>
+          <div class="" >
+          <img src="./../../../assets/images/logo-bg.png" width="20" alt="" class="d-inline-block align-middle mr-2">
+          <!-- Logo Text -->
+          <span class="cardtext">u16 southern <p class="run text-white">74/9(22/30)</p></span>
+
+        </div>
+        <div>
+          <img src="./../../../assets/images/logo-bg.png" width="20" alt="" class="d-inline-block align-middle mr-2">
+          <!-- Logo Text -->
+          <span class="cardtext">u16 northern  <p class="run text-white">75/(15,22/30)</p></span>
+        </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <button type="button" class="slick-prev">Previous</button>
+  <button type="button" class="slick-next">Next</button>
+</ngx-slick-carousel>
+
+
+<div class="container-fluid bg-black">
+  <div class="row">
+    <div class="col">
+  <h2 class="newstext ">Latest News  </h2>
+</div>
+<div class="col">
+  <button class="btn1 ">View All<i class='bi bi-arrow-right'></i></button>
+</div>
+</div>
+</div>
+<div style="margin-left: 20px; margin-right: 20px;" >
+  <div class="row bg-black" >
+
+    <div class="col bg-img ml-2 mr-2" height="50%" style="box-shadow: rgba(0, 0, 0, 0.753) 0px -50px 36px -28px inset;" >
+      <div class="bottomimg">
+      <!-- <img class="image"  src="./../../../assets/images/news2.jpeg" width="100%" alt=""> -->
+        <span  class="text text-white">Vijay and Virandeep all-round show drivers comfortable Malaysia</span>
+    </div>
+  </div>
+    <div class="col bg-img text-white" style="box-shadow: rgba(0, 0, 0, 0.753) 0px -50px 36px -28px inset; margin-left: 20px; margin-right: 20px;  ">
+      <div class="bottomimg">
+      <!-- <img class="image" src="./../../../assets/images/news2.jpeg" width="100%" alt=""> -->
+      <span  class="text">Vijay Unni Brillaiance not enough as Hong Kong win by 97</span>
+    </div>
+</div>
+  </div>
+
+</div>
+
